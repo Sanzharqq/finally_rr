@@ -1,0 +1,287 @@
+body{
+    background-color:rgb(203, 209, 212)  ;
+}
+.page-1{
+display:flex;
+align-items:center;
+justify-content: space-between;
+padding:10px 20px;
+margin-right:180px;
+}
+.menu{
+    display: flex;
+    gap:30px;
+    font-size: large;
+    color:rgb(42, 40, 41);
+}
+.menu, a{
+    text-decoration:none;
+    color:rgb(43, 38, 38);
+}
+.shop{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.shop:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.service{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.service:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.about-us{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.about-us:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.contact{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.contact:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    margin-left:25px;
+    font-size:24px;
+    font-weight: 400;
+    font-family:Instrument Serif, sans-serif;
+
+}
+.logo-second{
+    margin-left:25px;
+    font-size:24px;
+    font-weight: 400;
+    font-family:Instrument Serif, sans-serif;
+
+}
+.h1-content{
+    display: flex;
+    justify-content:center;
+    margin-top:55px;
+    font-family:Instrument Serif, sans-serif;
+    font-size:26px;
+
+}
+.ex-h1{
+    font-weight:400;
+}
+.icon{
+    margin-top: -0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.page-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:120px;
+    margin-top:60px;
+}
+.round-img{
+    width: 360px; 
+    height: 380px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+.round-img:hover{
+  transform:scale(1.05);
+}
+.topic{
+    margin-top:40px;
+    font-family:Instrument Serif;
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    text-decoration: underline;
+    color:rgb(37, 53, 81);
+}
+.but-shop{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:px solid;
+    width:170px;
+    border-radius:300px;
+    background-color:rgb(37, 53, 81);
+    box-sizing: border-box;
+    cursor: pointer;
+    height:59px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.but-text{
+    color:rgb(255, 255, 255);
+}
+.but-shop:hover{
+    transform: scale(1.1);
+}
+.h1-text{
+    font-family: Instrument Serif, sans-serif;
+    font-weight: 400;
+    font-size:31px;
+    margin-left:20px;
+}
+.ed-img{
+    width:360px;
+    height:380px;
+    object-fit:cover;
+}
+.page-3{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+.topic__3{
+    margin-top:40px;
+    font-family:Instrument Serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: underline;
+    color:rgb(37, 53, 81);
+}
+.mini-content{
+    font-size:16px;
+    font-family: Newsreader;
+    font-weight: 400;
+    max-width:100%;
+    line-height:24px;
+}
+.page-4{
+    display: flex;
+    justify-content:center;
+    gap:15px;
+
+    
+}
+.square-img{
+    height:260px;
+    width:300px;
+    object-fit: cover;
+}
+.but-social{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:x solid ;
+    width:170px;
+    border-radius:300px;
+    background-color:rgb(37, 53, 81);
+    box-sizing: border-box;
+    cursor: pointer;
+    height:59px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.but-social:hover{
+    transform: scale(1.1);
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 20px;
+    margin-right:180px;
+    margin-top:150px;
+    color:rgb(42, 40, 41);
+}
+.items{
+    display: flex;
+    justify-content:space-between; 
+    gap: 150px; 
+}
+.text{
+    font-family:Instrument Serif, sans-serif;
+}
+/* Common styles by Saqwo */
+@media (max-width: 768px){
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 209, 212);
+}
+
+.page-1, .page-2, .page-3, .page-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.round-img, .square-img, .ed-img {
+    width: 100%;
+    height: 380px;
+    max-width: 360px;
+}
+
+.container__1, .container__2, .container__3, .first-container, .second-container, .third-container {
+    flex: 1;
+    text-align: center;
+}
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 768px) {
+    .page-1, .page-2, .page-3, .page-4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .round-img, .square-img, .ed-img {
+        max-width: 100%; 
+    }
+
+    .but-shop, .but-social {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo-second{
+        margin-left:-70px;
+    }
+}

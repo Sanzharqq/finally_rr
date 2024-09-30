@@ -1,0 +1,221 @@
+body{
+    background-color:rgb(203, 209, 212) ;
+}
+.page-1{
+display:flex;
+align-items:center;
+justify-content: space-between;
+padding:10px 20px;
+margin-right:180px;
+}
+.menu{
+    display: flex;
+    gap:30px;
+    font-size:21.6px;
+    color:rgb(42, 40, 41);
+}
+.menu, a{
+    text-decoration:none;
+    color:rgb(43, 38, 38);
+}
+.shop{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.shop:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.service{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.service:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.about-us{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.about-us:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.contact{
+    text-shadow: none;
+    transition: text-shadow 0.3s ease;
+}
+.contact:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#line-shop{
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+}
+.logo{
+    margin-left:25px;
+    font-size:24px;
+    font-weight: 400;
+    font-family:Instrument Serif, sans-serif;
+}
+.logo-second{
+    margin-left:25px;
+    font-size:24px;
+    font-weight: 400;
+    font-family:Instrument Serif, sans-serif;
+}
+.content__1{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+ .image_1{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+}
+.text-content{
+    font-family:Instrument Serif;
+}
+.icon{
+    margin-top: -0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 20px;
+    margin-right:180px;
+    margin-top:150px;
+    color:rgb(42, 40, 41);
+}
+.items{
+    display: flex;
+    justify-content:space-between; 
+    gap: 150px; 
+}
+.text{
+    font-family:Instrument Serif, sans-serif;
+}
+/* Стандартный стиль для экранов компьютеров (ширина от 1024px и выше) */
+body {
+    background-color: rgb(203, 209, 212);
+}
+.page-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-right: 180px;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: large;
+    color: rgb(42, 40, 41);
+}
+.logo {
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Instrument Serif, sans-serif;
+}
+.content__1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.image_1 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.text-content {
+    font-family: Instrument Serif;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-right: 180px;
+    margin-top: 150px;
+    color: rgb(42, 40, 41);
+}
+
+/* Адаптивный стиль для планшетов (ширина от 768px до 1024px) */
+@media (max-width: 1024px) {
+    .page-1 {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .content__1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .image_1 {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* Адаптивный стиль для телефонов (ширина до 767px) */
+@media (max-width: 767px) {
+    .page-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-right: 20px;
+        line-height: 38px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+    }
+    .logo {
+        margin-left: 0;
+        font-size: 22px;
+    }
+    .logo-second{
+        margin-left:-65px;
+    }
+    .content__1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .image_1 {
+        width: 280px;
+        height: 280px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
